@@ -22,6 +22,10 @@ chrome.browserAction.onClicked.addListener(function (tab) {
                         var btn = document.getElementsByClassName("downloadbutton")[0];
                         if(btn) btn.click();
                     `
+                }, function() {
+                    setTimeout(function() {
+                        chrome.tabs.remove(newTab.id);
+                    }, 5000); 
                 });
             }
         });
