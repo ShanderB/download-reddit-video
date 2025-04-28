@@ -14,8 +14,6 @@ This browser extension allows you to quickly save Reddit posts using Rapidsave. 
 
    This will create a .zip file in the web-ext-artifacts directory.
 
-2. **Install the Extension**
-
 ## Firefox Developer Setting
 
 To install unsigned extensions in Firefox (for development purposes), you need to disable signature enforcement:
@@ -38,7 +36,7 @@ This allows you to load and use your extension without needing it to be signed b
 2. Click on the gear icon in the top right corner and select "Install Add-on From File...".
     - You can also drag and drop the .zip file into the Firefox add-ons page to install it.
 3. Select the .zip file you created in the `web-ext-artifacts` directory.
-4. The extension will be installed and will appear in your list of add-ons with the message "Redirect to Rapidsave could not be verified for use in LibreWolf. Proceed with caution.".
+4. The extension will be installed and will appear in your list of add-ons with the message ``Redirect to Rapidsave could not be verified for use in LibreWolf. Proceed with caution.``.
 
 3. **How It Works**
 
