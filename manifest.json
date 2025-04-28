@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Redirecionar para Rapidsave",
+  "name": "Redirect to Rapidsave",
   "version": "1.0",
-  "description": "Redireciona a página atual para o Rapidsave.",
+  "description": "Redirects the current page to Rapidsave.",
   "permissions": [
     "tabs",
     "activeTab",
@@ -26,7 +26,7 @@
     }
   ],
   "browser_action": {
-    "default_title": "Salvar no Rapidsave"
+    "default_title": "Save to Rapidsave"
   },
   "background": {
     "scripts": [
