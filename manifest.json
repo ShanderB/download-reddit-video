@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Redirecionar para Rapidsave",
+  "version": "1.0",
+  "description": "Redireciona a página atual para o Rapidsave.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://rapidsave.com/*",
+    "https://*.rapidsave.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_title": "Salvar no Rapidsave"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
