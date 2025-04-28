@@ -19,9 +19,6 @@
     {
       "matches": [
         "*://*.reddit.com/*"
-      ],
-      "js": [
-        "content.js"
       ]
     }
   ],
