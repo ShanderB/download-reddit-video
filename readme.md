@@ -1,3 +1,8 @@
+# Disclaimer
+This extension is an unverified extension. To use following this guide, you need to use one of the supported versions:
+[Firefox Extension Workshop](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/#signing-your-addons))
+
+
 # Redirect to Rapidsave Firefox/Librewolf
 
 This browser extension allows you to quickly save Reddit posts using Rapidsave. When you click the extension button while on a Reddit page, it will automatically redirect you to Rapidsave, trigger the download, and close the tab after a few seconds.
