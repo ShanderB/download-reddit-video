@@ -16,7 +16,8 @@ This browser extension allows you to quickly save Reddit posts using Rapidsave. 
    npx web-ext build --overwrite-dest
    ```
 
-   This will create a .zip file in the web-ext-artifacts directory.
+   This will create a .zip file in the web-ext-artifacts directory. I already created a zip file for you, so you can skip this step if you want.
+   The zip file will be named `redirect-to-rapidsave-<version>.zip`.
 
 ## Firefox Developer Setting
 
