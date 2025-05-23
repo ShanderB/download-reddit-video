@@ -13,7 +13,7 @@ This browser extension allows you to quickly save Reddit posts using Rapidsave. 
    Use [web-ext](https://github.com/mozilla/web-ext) to build the extension package:
 
    ```sh
-   npx web-ext build --overwrite-destination
+   npx web-ext build --overwrite-dest
    ```
 
    This will create a .zip file in the web-ext-artifacts directory.
