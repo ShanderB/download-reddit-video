@@ -6,6 +6,7 @@
   "permissions": [
     "tabs",
     "activeTab",
+    "downloads",
     "https://rapidsave.com/*",
     "https://*.rapidsave.com/*"
   ],
